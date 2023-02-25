@@ -3,6 +3,8 @@ mkShell {
   buildInputs = [
     yq
     bash
+	gnused
+	toybox
   ];
 }
 
